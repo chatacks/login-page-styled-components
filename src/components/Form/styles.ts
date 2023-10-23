@@ -54,7 +54,14 @@ export const Input = styled.input`
 `;
 
 export const Anchor = styled.a`
+  color: #3E4070;
+  text-align: left;
+  margin-bottom: 6px;
+  transition: all 0.375s;
 
+  &:hover {
+    color: #343771;
+  }
 `;
 
 export const Button = styled.button`
