@@ -39,7 +39,18 @@ export const LoginForm = styled.form`
 `;
 
 export const Input = styled.input`
+  width: 100%;
+  height: 3.125rem;
+  border: 2px solid #ebebeb;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0 1rem;
+  border-radius: 1.25rem;
+  transition: all 0.375s;
 
+  &:hover {
+    border: 2px solid rgba(0, 0, 0, 0.44);
+  }
 `;
 
 export const Anchor = styled.a`
