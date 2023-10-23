@@ -1,4 +1,3 @@
-Markdown
 # Projeto Login Page com styled components
 
 Este projeto é uma página de login simples estilizada apenas com styled components.
