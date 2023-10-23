@@ -32,7 +32,10 @@ export const LoginCard = styled.div`
 `;
 
 export const LoginForm = styled.form`
-
+  width: 100%;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
 `;
 
 export const Input = styled.input`
